@@ -1,0 +1,7 @@
+﻿/.vs
+bin/
+obj/
+*.sqlproj.user
+*.DotSettings.user
+*.csproj.user
+*.xproj.user
