@@ -1,6 +1,4 @@
 ﻿using DailyChallenge.Google;
-using System;
-using System.Collections.Generic;
 using Xunit;
 using Shouldly;
 
