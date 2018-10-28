@@ -21,7 +21,7 @@ namespace DailyChallenge.Test
         [Theory]
         [InlineData(new int[] { 1, 2, 3 }, 3, new int[] { 4, 5 }, 5)]
         [InlineData(new int[] { 20, 30, 45 }, 45, new int[] { 56, 76 }, 76)]
-        public void SholdPopReturnsTopmostElement(int[] initialList, int initialPopValue, int[] secondaryList, int secondaryValue)
+        public void ShouldPopReturnsTopmostElement(int[] initialList, int initialPopValue, int[] secondaryList, int secondaryValue)
         {
             var cut = new Challenge43();
 
