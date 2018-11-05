@@ -16,7 +16,7 @@
 
             for (int i = 0; i < A.Length; i++)
             {
-                for (int j = 1; j < A.Length; j++)
+                for (int j = i; j < A.Length; j++)
                 {
                     if (A[i] > A[j])
                     {
