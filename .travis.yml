@@ -1,8 +1,9 @@
 language: csharp
+mono: none
 solution: DailyChallenge.sln
 install:
   - nuget restore DailyChallenge.sln
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
+  - nuget install xunit.runners -Version 2.4.1 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release DailyChallenge.sln
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./DailyChallenge.Tests/bin/Release/DailyChallenge.Tests.dll
+  - mono ./testrunner/xunit.runners.2.4.1/tools/xunit.console.clr4.exe ./DailyChallenge.Tests/bin/Release/DailyChallenge.Tests.dll
