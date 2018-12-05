@@ -1,9 +1,7 @@
 language: csharp
 mono: none
-solution: DailyChallenge.sln
-install:
-  - nget restore DailyChallenge.sln
-  - nget install xunit.runners -Version 2.4.1 -OutputDirectory testrunner
+dotnet: 2.0.0
 script:
-  - xbuild /p:Configuration=Release DailyChallenge.sln
-  - mono ./testrunner/xunit.runners.2.4.1/tools/xunit.console.clr4.exe ./DailyChallenge.Tests/bin/Release/DailyChallenge.Tests.dll
+  - dotnet restore
+  - dotnet build ./DailyChallenge
+  - dotnet test ./DailyChallenge.Test/
