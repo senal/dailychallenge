@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyChallenge", "dailychallenge\DailyChallenge.csproj", "{F0BAF43C-E3FB-4034-9D46-DD24414D901A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyChallenge", "dailychallenge\DailyChallenge.csproj", "{F0BAF43C-E3FB-4034-9D46-DD24414D901A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyChallenge.Test", "dailychallenge.test\DailyChallenge.Test.csproj", "{375DFBCA-3A10-44A1-BA3A-2367ADD7C683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyChallenge.Test", "dailychallenge.test\DailyChallenge.Test.csproj", "{375DFBCA-3A10-44A1-BA3A-2367ADD7C683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABB22CB7-A278-45B8-B8EE-CEC8F89B42A5}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
