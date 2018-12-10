@@ -3,4 +3,4 @@ mono: none
 dotnet: 2.0.0
 script:
   - dotnet build DailyChallenge
-  - dotnet build DailyChallenge.Test
+  - dotnet test DailyChallenge
