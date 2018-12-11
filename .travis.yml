@@ -2,5 +2,6 @@ language: csharp
 mono: none
 dotnet: 2.0.0
 script:
+  - dotnet restore DailyChallenge
   - dotnet build DailyChallenge
-  - dotnet test DailyChallenge.Test\DailyChallenge.Test.csproj
+  - dotnet test DailyChallenge.Test
