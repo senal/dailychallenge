@@ -4,4 +4,4 @@ dotnet: 2.0.0
 script:
   - dotnet restore DailyChallenge
   - dotnet build DailyChallenge
-  - dotnet test DailyChallenge/DailyChallenge.Test
+  - dotnet test DailyChallenge.Test
